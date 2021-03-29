@@ -17,9 +17,5 @@ int main ()
     {
         printf("%d",k);
     }
-    else
-    {
-        printf("%d",k);
-    }
     return 0;
 }
