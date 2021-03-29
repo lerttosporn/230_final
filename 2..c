@@ -28,22 +28,20 @@ int main ()
         }
     }
     int rac[ch],x=ar[0];
-    for(i=0; i<ch; i++)
+    i=0;
+    for(j=1; j<n; j++)
     {
-        rac[i]=0;
-        rac[i]=rac[i]+rac[i];
-        for(j=1+rac[i-1]; j<n; j++)
+        if(x!=ar[j])
         {
-            if(x!=ar[j])
-            {
-                x=ar[j];
-            }
-            else
-            {
-                rac[j]++;
-            }
-            printf("%d",rac[j]);
+            i++;
+            rac[i]=0;
+            x=ar[j];
         }
+        else
+        {
+            rac[i]++;
+        }
+        printf("%d",rac[j]);
     }
     for(i=0; i<ch-1; i++)
     {
