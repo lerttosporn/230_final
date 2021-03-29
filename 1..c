@@ -4,7 +4,7 @@ int main ()
     int n,k,tmp,ch,i;
     scanf("%d",&n);
     scanf("%d",&k);
-    if(k<10&&k>=0)
+    if(n>=0&&k<10&&k>=0)
     {
         do
         {
