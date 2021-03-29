@@ -44,7 +44,6 @@ int main ()
         {
             col1[i]+=ar1[j][i];
         }
-        printf("col %d\n",col1[i]);
     }
     ch1[0]=0;
     ch1[1]=0;
@@ -115,24 +114,24 @@ int main ()
     {
         if(low1[0]==col1[0]&&col1[0]==ch1[0])
         {
-            printf("no");
+            printf("no\n");
         }
     }
     else
     {
-        printf("yes");
+        printf("yes\n");
     }
     //2
     if(low2[0]==low2[1]&&low2[1]==low2[2]&&col2[0]==col2[1]&&col2[1]==col2[2]&&ch2[0]==ch2[1])
     {
         if(low2[0]==col2[0]&&col2[0]==ch2[0])
         {
-            printf("no");
+            printf("no\n");
         }
     }
     else
     {
-        printf("yes");
+        printf("yes\n");
     }
     //3
     if(low3[0]==low3[0]&&low3[1]==low3[2]&&col3[0]==col3[1]&&col3[1]==col3[2]&&ch3[0]==ch3[1])
