@@ -110,36 +110,27 @@ int main ()
         ch3[1]+=ar3[p-i-1][i];
     }
     //11
-    if(low1[0]==low1[1]&&low1[1]==low1[2]&&col1[0]==col1[1]&&col1[1]==col1[2]&&ch1[0]==ch1[1])
+    if(low1[0]==low1[1]&&low1[1]==low1[2]&&col1[0]==col1[1]&&col1[1]==col1[2]&&ch1[0]==ch1[1]&&low1[0]==col1[0]&&col1[0]==ch1[0])
     {
-        if(low1[0]==col1[0]&&col1[0]==ch1[0])
-        {
             printf("no\n");
-        }
     }
     else
     {
         printf("yes\n");
     }
     //2
-    if(low2[0]==low2[1]&&low2[1]==low2[2]&&col2[0]==col2[1]&&col2[1]==col2[2]&&ch2[0]==ch2[1])
+    if(low2[0]==low2[1]&&low2[1]==low2[2]&&col2[0]==col2[1]&&col2[1]==col2[2]&&ch2[0]==ch2[1]&&low2[0]==col2[0]&&col2[0]==ch2[0])
     {
-        if(low2[0]==col2[0]&&col2[0]==ch2[0])
-        {
             printf("no\n");
-        }
     }
     else
     {
         printf("yes\n");
     }
     //3
-    if(low3[0]==low3[0]&&low3[1]==low3[2]&&col3[0]==col3[1]&&col3[1]==col3[2]&&ch3[0]==ch3[1])
+    if(low3[0]==low3[0]&&low3[1]==low3[2]&&col3[0]==col3[1]&&col3[1]==col3[2]&&ch3[0]==ch3[1]&&low3[0]==col3[0]&&col3[0]==ch3[0])
     {
-        if(low3[0]==col3[0]&&col3[0]==ch3[0])
-        {
             printf("no");
-        }
     }
     else
     {
